@@ -5,8 +5,44 @@
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1658239840558-8f8252792ca1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-image: url("./snow.jpg");
     background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: rgb(247, 243, 247);
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -5rem;
+
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-a {
+    text-align: center;
+}
+
+.countdown-a span {
+    font-size: 1.3rem
 }
